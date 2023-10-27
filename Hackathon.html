@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calendar</title>
+    <link rel="stylesheet" type="text/css" href="Hackathon.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Simple Calendar</h1>
+    </div>
+    <div class="content">
+        <div class="timeline">
+            <!-- Timeline events will be added here -->
+        </div>
+        <form id="eventForm">
+            <label for="startTime">Start Time:</label>
+            <input type="text" id="startTime" name="startTime" required>
+            <label for="endTime">End Time:</label>
+            <input type="text" id="endTime" name="endTime" required>
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" name="eventName" required>
+            <input type="submit" value="Add Event">
+        </form>
+    </div>
+    <script src="Hackathon.js"></script>
+</body>
+</html>
