@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
   database: 'mydb5'
 });
 
-connection.query('SELECT * FROM users', (error, results, fields) => {
+connection.query('SELECT * FROM timetable', (error, results, fields) => {
   if (error) {
     console.error('Error:', error);
     return;

@@ -1,0 +1,16 @@
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: green; 
+    color: white; 
+    text-decoration: none; /* Remove underline from the link */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: green; /* Button background color on hover */
+  }
